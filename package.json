@@ -1,0 +1,31 @@
+{
+  "name": "prodigy_bda_021",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/aditya3singh/PRODIGY_BD_02#readme",
+  "bugs": {
+    "url": "https://github.com/aditya3singh/PRODIGY_BD_02/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya3singh/PRODIGY_BD_02.git"
+  },
+  "license": "ISC",
+  "author": "Aditya Singh Gautam",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^7.8.6",
+    "nodemon": "^3.1.9",
+    "uuid": "^9.0.1"
+  }
+}
